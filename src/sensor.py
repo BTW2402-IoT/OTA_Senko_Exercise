@@ -42,4 +42,7 @@ class Sensor:
     
     def getPrint(self):
         print("Hello World")
+        
+     def update(self):
+        print("Do Update")
 
