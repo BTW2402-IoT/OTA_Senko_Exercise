@@ -39,4 +39,3 @@ class Sensor:
     def getHall(self):
         hs = esp32.hall_sensor()
         return hs
-
