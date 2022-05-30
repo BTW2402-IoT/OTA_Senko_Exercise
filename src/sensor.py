@@ -41,4 +41,4 @@ class Sensor:
         return hs
     
     def update(self):
-        print("update")
+        print("update the latest version")
