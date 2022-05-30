@@ -36,7 +36,7 @@ class Sensor:
         
         return msg
 
-    def getHal():
+    def getHall():
         hs = esp32.hall_sensor()
         return hs
 
