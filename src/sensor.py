@@ -1,4 +1,3 @@
-from ssl import HAS_SNI
 import BME280
 import esp32
 from machine import Pin, SoftI2C
