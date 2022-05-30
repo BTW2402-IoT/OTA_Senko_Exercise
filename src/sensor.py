@@ -1,5 +1,6 @@
-import re
+from ssl import HAS_SNI
 import BME280
+import esp32
 from machine import Pin, SoftI2C
 
 class Sensor:
@@ -35,4 +36,8 @@ class Sensor:
             msg = (b'{0:3.1f},{1:3.1f},{2:3.1f}'.format(t,h,p))
         
         return msg
+
+    def getHal():
+        hs = esp32.hall_sensor()
+        return HAS_SNI
 
