@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "C:\\Users\\patri\\Workspace\\_api_stubs"
+    ],
+    "python.pythonPath": "C:\\Users\\patri\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\patri\\Workspace\\_api_stubs"
+    ]
+}
