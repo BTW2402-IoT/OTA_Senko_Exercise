@@ -38,5 +38,5 @@ class Sensor:
 
     def getHal():
         hs = esp32.hall_sensor()
-        return HAS_SNI
+        return hs
 
