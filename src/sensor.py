@@ -40,5 +40,5 @@ class Sensor:
         hs = esp32.hall_sensor()
         return hs
     
-    def update():
+    def update(self):
         print("update")
